@@ -151,7 +151,8 @@ html {
                     }
                     &-icon {
                         top: 18rem;
-                        left: calc(100% - 4rem);
+                        left: calc(100% - 4.2rem);
+                        width: 2.5rem;
                     }
                 }
             }
@@ -174,7 +175,7 @@ html {
             .plant {
                 position:absolute;
                 top: 26.3rem;
-                left: 30rem;
+                left: 32rem;
                 width: 29%;
             }
             .pointer-2 {

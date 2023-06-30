@@ -289,7 +289,8 @@ html {
   }
   .section form .search-container-search-icon {
     top: 18rem;
-    left: calc(100% - 4rem);
+    left: calc(100% - 4.2rem);
+    width: 2.5rem;
   }
   .section .section-images-container {
     -ms-flex-wrap: wrap;
@@ -313,7 +314,7 @@ html {
   .section .section-images-container .plant {
     position: absolute;
     top: 26.3rem;
-    left: 30rem;
+    left: 32rem;
     width: 29%;
   }
   .section .section-images-container .pointer-2 {
