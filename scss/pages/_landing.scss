@@ -1,0 +1,188 @@
+html {
+    font-size: 62.5%;
+}
+.header {
+    width: 100%;
+    padding: 5rem;
+
+    &-header {
+        @include flexbox(flex-start, flex-start, 30rem, row);
+    }
+    &-navigation {
+        margin-left: $marginleft;
+        @include flexbox(flex-start, flex-start, 4rem, row);
+        li {
+            a {
+                @include fonts(400, 1.8rem);
+                color: $color-black;
+            }
+        }  
+    }
+    &-icons {
+        &-navigation {
+        @include flexbox(flex-end, center, 3rem, row);
+    }
+    }
+}
+.section {
+    &-container {
+        width: 90%;
+        height: 50rem;
+        margin: 5rem;
+        background-color: $color-lightblue;
+        border-radius: 2.4rem;
+        padding: 3rem;
+        @include flexbox(flex-start, flex-start, 3rem, column);
+        position: relative;
+
+        h2 {
+            width: 40%;
+            @include fonts(800, 6.4rem);
+        }
+   
+    }
+    &-container-rumbers {
+        @include flexbox(flex-start, flex-start, 3rem, row);
+        h3 {
+            @include fonts(400, 3.2rem);
+        }
+        p {
+            @include fonts(400, 1.8rem);
+            color: $color-black;
+        }
+        
+    }
+    form {
+        width: 100%;
+        .search-container{
+            &-search {
+                input {
+                position: relative;
+                width: 20%;
+                border-radius: 1.2rem;
+                padding: 1rem;
+                border: none;
+                }
+                &-icon {
+                    background-color: $color-lightblue;
+                    width: 2.5%;
+                    padding: .5rem;
+                    border-radius: 1.2rem;
+                    position: absolute;
+                    top: 28.7rem;
+                    left: 21.3rem;
+                    cursor: pointer;
+                    img {
+                        width: 75%;
+                        
+                    }
+                }
+            
+            }
+        
+        }
+        
+    }
+    .section-images-container {
+        @include flexbox(flex-start, flex-start, 3rem, row);
+        .pointer {
+            position: absolute;
+            top: 28rem;
+            left: 29rem;
+            width: 20%;
+        }
+        .rectangle {
+            position: absolute;
+            top: 17rem;
+            left: 65rem;
+            width: 33%;
+        }
+        .plant {
+            position: absolute;
+            top: 1.5rem;
+            left: 66rem;
+            width: 35%;
+        }
+        .pointer-2 {
+            position: absolute;
+            top: 1.1rem;
+            left: 101rem;
+            width: 12%;
+        }
+    
+    }
+}
+@media screen and (max-width: 768px) {
+    .header {
+        padding: 2rem;
+        &-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        &-navigation {
+            display: none;
+        }
+        &-icons {
+            margin-left: 0;
+        }
+    }
+    .section {
+        &-container {
+            margin: 2rem;
+            padding: 1.5rem;
+            h2 {
+                width: 100%;
+                font-size: 3.2rem;
+            }
+        }
+        .section-container-rumbers {
+            flex-wrap: wrap;
+            justify-content: center;
+            h3 {
+                margin-bottom: 0.5rem;
+            }
+        }
+        form {
+            .search-container {
+                &-search {
+                    input {
+                        width: 100%;
+                    }
+                    &-icon {
+                        top: 18rem;
+                        left: calc(100% - 4rem);
+                    }
+                }
+            }
+        }
+        .section-images-container {
+            flex-wrap: wrap;
+            justify-content: center;
+            .pointer {
+                position:absolute;
+                top: 29rem;
+                left: 7rem;
+                width: 29%;
+            }
+            .rectangle {
+                position:absolute;
+                top: 33rem;
+                left: 30rem;
+                width: 29%;
+            }
+            .plant {
+                position:absolute;
+                top: 26.3rem;
+                left: 30rem;
+                width: 29%;
+            }
+            .pointer-2 {
+                position:absolute;
+                top: 22.3rem;
+                left: 52rem;
+                width: 15%;
+            }
+        }
+    }
+}
