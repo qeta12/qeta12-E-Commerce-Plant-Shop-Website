@@ -1,0 +1,36 @@
+.about-us {
+    width: 100%;
+    padding-top: 10rem;
+    @include flexbox(center, center, 10rem, column);
+    &-about {
+        @include flexbox(center, center, 2rem, column);
+        h2 {
+            @include fonts(700, 3.2rem);
+        }
+        p {
+            @include fonts(400, 1.8rem);
+            color: $color-black-lighter;
+        }
+    }
+    &-offers {
+        @include flexbox(center, center, 4rem, row);
+        .assortment {
+            @include flexbox(center, center, 2rem, column);
+            .large {
+                @include flexbox(center, center, 0, 0);
+                width: 10rem;
+                height: 10rem;
+                background-color: $color-lightblue;
+                border-radius: 50%;
+            }
+            h3 {
+                @include fonts(700, 1.8rem);
+            }
+            p {
+                @include fonts(400, 1.8rem);
+                color: $color-black-lighter;
+                padding: 5rem;
+            }
+        }
+    }
+}

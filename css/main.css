@@ -439,4 +439,254 @@ html {
   border-radius: 1.2rem;
   -webkit-transform: rotate(-360deg);
           transform: rotate(-360deg);
+}
+
+@media (max-width: 768px) {
+  .selling {
+    padding: 3rem;
+  }
+  .selling-best {
+    padding: 2rem;
+  }
+  .selling-best-btn {
+    font-size: 1.6rem;
+  }
+  .h3,
+  span {
+    font-size: 1.6rem;
+    padding: 0.5rem;
+  }
+  .artificial,
+  .natural,
+  .artificial-plants {
+    display: inline-block;
+    -webkit-transform: none;
+            transform: none;
+    -webkit-box-shadow: none;
+            box-shadow: none;
+    border-radius: 0;
+  }
+}
+.about-us {
+  width: 100%;
+  padding-top: 10rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 10rem;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+.about-us-about {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 2rem;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+.about-us-about h2 {
+  font-family: "Poppins, sans-serif";
+  font-weight: 700;
+  font-size: 3.2rem;
+}
+.about-us-about p {
+  font-family: "Poppins, sans-serif";
+  font-weight: 400;
+  font-size: 1.8rem;
+  color: rgba(30, 30, 30, 0.5);
+}
+.about-us-offers {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 4rem;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+.about-us-offers .assortment {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 2rem;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+.about-us-offers .assortment .large {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 0;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: 0;
+          flex-direction: 0;
+  width: 10rem;
+  height: 10rem;
+  background-color: #C1DCDC;
+  border-radius: 50%;
+}
+.about-us-offers .assortment h3 {
+  font-family: "Poppins, sans-serif";
+  font-weight: 700;
+  font-size: 1.8rem;
+}
+.about-us-offers .assortment p {
+  font-family: "Poppins, sans-serif";
+  font-weight: 400;
+  font-size: 1.8rem;
+  color: rgba(30, 30, 30, 0.5);
+  padding: 5rem;
+}
+
+.categories {
+  padding: 20rem;
+  width: 100%;
+}
+.categories-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 10rem;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+.categories .categories-heading {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 3rem;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+.categories .categories-heading h2 {
+  font-family: "Poppins, sans-serif";
+  font-weight: 700;
+  font-size: 3.2rem;
+}
+.categories .categories-heading p {
+  font-family: "Poppins, sans-serif";
+  font-weight: 400;
+  font-size: 1.8rem;
+  color: rgba(30, 30, 30, 0.5);
+}
+.categories .categories-pictures {
+  background-color: #C1DCDC;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 3rem;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+.categories .categories-pictures h3 {
+  font-family: "Poppins, sans-serif";
+  font-weight: 700;
+  font-size: 1.8rem;
+  text-align: center;
+  padding: 1rem;
+}
+.categories .categories-pictures p {
+  font-family: "Poppins, sans-serif";
+  font-weight: 400;
+  font-size: 1.8rem;
+  color: rgba(30, 30, 30, 0.5);
+  text-align: center;
+}
+.categories .categories-pictures-accesories {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 3rem;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+.categories .categories-pictures-accesories .categories-pictures-accesories-btn {
+  background-color: #fff;
+  border-radius: 0.8rem;
+  padding: 1rem;
+  font-family: "Poppins, sans-serif";
+  font-weight: 400;
+  font-size: 1.8rem;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+.categories .categories-pictures-accesories .categories-pictures-accesories-btn:hover {
+  border-radius: 0.8rem;
+  -webkit-box-shadow: 0 0 0.5rem 0.5rem rgba(30, 30, 30, 0.5);
+          box-shadow: 0 0 0.5rem 0.5rem rgba(30, 30, 30, 0.5);
+  -webkit-transition: -webkit-transform 0.5s;
+  transition: -webkit-transform 0.5s;
+  transition: transform 0.5s;
+  transition: transform 0.5s, -webkit-transform 0.5s;
 }/*# sourceMappingURL=main.css.map */
