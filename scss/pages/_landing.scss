@@ -85,6 +85,7 @@ html {
     }
     .section-images-container {
         @include flexbox(flex-start, flex-start, 3rem, row);
+        transition: all .3s;
         .pointer {
             position: absolute;
             top: 28rem;
@@ -102,6 +103,9 @@ html {
             top: 1.5rem;
             left: 66rem;
             width: 35%;
+            &:hover {
+                transform: rotate(-16deg);
+            }
         }
         .pointer-2 {
             position: absolute;
@@ -186,4 +190,5 @@ html {
             }
         }
     }
+    
 }

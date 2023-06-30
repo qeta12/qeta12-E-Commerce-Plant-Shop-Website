@@ -219,6 +219,8 @@ html {
   -webkit-box-direction: normal;
       -ms-flex-direction: row;
           flex-direction: row;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
 }
 .section .section-images-container .pointer {
   position: absolute;
@@ -237,6 +239,10 @@ html {
   top: 1.5rem;
   left: 66rem;
   width: 35%;
+}
+.section .section-images-container .plant:hover {
+  -webkit-transform: rotate(-16deg);
+          transform: rotate(-16deg);
 }
 .section .section-images-container .pointer-2 {
   position: absolute;
@@ -323,4 +329,114 @@ html {
     left: 52rem;
     width: 15%;
   }
+}
+.selling {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  gap: 3rem;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  width: 100%;
+  padding: 5rem;
+}
+.selling-best {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  gap: 3rem;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+.selling-best h2 {
+  font-family: "Poppins, sans-serif";
+  font-weight: 700;
+  font-size: 3.2rem;
+}
+.selling-best p {
+  font-family: "Poppins, sans-serif";
+  font-weight: 400;
+  font-size: 1.8rem;
+}
+.selling-best-btn {
+  background-color: #C1DCDC;
+  border-radius: 0.8rem;
+  font-family: "Poppins, sans-serif";
+  font-weight: 400;
+  font-size: 1.8rem;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+.selling-best-btn:hover {
+  border-radius: 0.8rem;
+  -webkit-box-shadow: 0 0 0.5rem 0.5rem rgba(30, 30, 30, 0.5);
+          box-shadow: 0 0 0.5rem 0.5rem rgba(30, 30, 30, 0.5);
+  -webkit-transition: -webkit-transform 0.5s;
+  transition: -webkit-transform 0.5s;
+  transition: transform 0.5s;
+  transition: transform 0.5s, -webkit-transform 0.5s;
+}
+.selling-best-btn span {
+  padding: 8rem;
+  cursor: pointer;
+}
+.selling .plants {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  gap: 10rem;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+.selling .plants h3 {
+  font-family: "Poppins, sans-serif";
+  font-weight: 400;
+  font-size: 1.8rem;
+  padding: 1rem;
+}
+.selling .plants span {
+  font-family: "Poppins, sans-serif";
+  font-weight: 400;
+  font-size: 1.8rem;
+  color: rgba(30, 30, 30, 0.5);
+  padding: 1rem;
+}
+.selling .plants .artificial:hover,
+.selling .plants .natural:hover,
+.selling .plants .artificial-plants:hover {
+  -webkit-box-shadow: 0 0 0.5rem 0.5rem rgba(30, 30, 30, 0.5);
+          box-shadow: 0 0 0.5rem 0.5rem rgba(30, 30, 30, 0.5);
+  -webkit-transition: -webkit-transform 0.3s;
+  transition: -webkit-transform 0.3s;
+  transition: transform 0.3s;
+  transition: transform 0.3s, -webkit-transform 0.3s;
+  border-radius: 1.2rem;
+  -webkit-transform: rotate(-360deg);
+          transform: rotate(-360deg);
 }/*# sourceMappingURL=main.css.map */
