@@ -48,14 +48,7 @@
                         color: $color-black-lighter;
                             }
                         }
-                        .raiting {
-                            padding: 4rem;
-                            width: 10%;
-                            @include flexbox(flex-start, center, .1rem, row);
-                            img {
-                                width: 5%;
-                            }
-                        }
+                        
                     }
                 }
             }

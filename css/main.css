@@ -768,27 +768,6 @@ html {
   font-size: 1.8rem;
   color: rgba(30, 30, 30, 0.5);
 }
-.customers-comments-1 .customers-comments-john-doe-comment .customer-comments-john-doe-comment-1 .customer-info .raiting {
-  padding: 4rem;
-  width: 10%;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: start;
-      -ms-flex-pack: start;
-          justify-content: flex-start;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  gap: 0.1rem;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
-}
-.customers-comments-1 .customers-comments-john-doe-comment .customer-comments-john-doe-comment-1 .customer-info .raiting img {
-  width: 5%;
-}
 
 .footer {
   width: 100%;
