@@ -1,5 +1,5 @@
 .categories {
-    padding: 20rem;
+    padding: 10rem;
     width: 100%;
     &-container {
         
@@ -19,6 +19,7 @@
     }
     .categories-pictures {
         background-color: $color-lightblue;
+        
         @include flexbox(flex-start, center, 3rem, row);
         h3 {
             @include fonts(700, 1.8rem);

@@ -1,0 +1,42 @@
+.footer {
+    width: 100%;
+    background-color: $color-lightblue;
+    @include flexbox(flex-start, flex-start, 10rem, row);
+    padding: 5rem;
+    
+    position: relative;;
+    &-chart {
+        @include flexbox(flex-start, flex-start, 25rem, row);
+        .help {
+            @include flexbox(flex-start, flex-start, 5rem, row);
+        }
+        .help-help {
+            @include flexbox(flex-start, flex-start, 2rem, column);
+            p {
+                @include fonts(400, 1.8rem);
+                color: $color-black-lighter;
+            }
+            .icons {
+                @include flexbox(flex-start, flex-start, 2rem, row);
+            }
+        }
+        .footer-list {
+            @include flexbox(flex-start, flex-start, 2rem, column);
+            h2 {
+                @include fonts(700, 1.8rem);
+            }
+            li {
+                @include fonts(400, 1.8rem);
+                color: $color-black-lighter;
+            }
+        }
+    }
+    span {
+        position: absolute;
+        top: 21rem;
+        left: 5rem;
+        @include fonts(400, 1.8rem);
+        color: $color-black-lighter;
+
+    }
+}

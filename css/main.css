@@ -441,32 +441,6 @@ html {
           transform: rotate(-360deg);
 }
 
-@media (max-width: 768px) {
-  .selling {
-    padding: 3rem;
-  }
-  .selling-best {
-    padding: 2rem;
-  }
-  .selling-best-btn {
-    font-size: 1.6rem;
-  }
-  .h3,
-  span {
-    font-size: 1.6rem;
-    padding: 0.5rem;
-  }
-  .artificial,
-  .natural,
-  .artificial-plants {
-    display: inline-block;
-    -webkit-transform: none;
-            transform: none;
-    -webkit-box-shadow: none;
-            box-shadow: none;
-    border-radius: 0;
-  }
-}
 .about-us {
   width: 100%;
   padding-top: 10rem;
@@ -578,7 +552,7 @@ html {
 }
 
 .categories {
-  padding: 20rem;
+  padding: 10rem;
   width: 100%;
 }
 .categories-container {
@@ -689,4 +663,252 @@ html {
   transition: -webkit-transform 0.5s;
   transition: transform 0.5s;
   transition: transform 0.5s, -webkit-transform 0.5s;
+}
+
+.customers-comments {
+  width: 100%;
+  padding: 5rem;
+}
+.customers-comments h2 {
+  font-family: "Poppins, sans-serif";
+  font-weight: 700;
+  font-size: 3.2rem;
+  width: 40%;
+  padding: 5rem;
+}
+.customers-comments-1 {
+  width: 80%;
+}
+.customers-comments-1 .customers-comments-john-doe {
+  padding: 5rem;
+}
+.customers-comments-1 .customers-comments-john-doe-comment {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 10rem;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+.customers-comments-1 .customers-comments-john-doe-comment .customer-comments-john-doe-comment-1 {
+  background-color: #C1DCDC;
+  width: 50%;
+  margin-left: 3rem;
+  padding: 3rem;
+  border-radius: 1.2rem;
+}
+.customers-comments-1 .customers-comments-john-doe-comment .customer-comments-john-doe-comment-1 p {
+  font-family: "Poppins, sans-serif";
+  font-weight: 400;
+  font-size: 1.8rem;
+  color: rgba(30, 30, 30, 0.5);
+  padding: 3rem;
+}
+.customers-comments-1 .customers-comments-john-doe-comment .customer-comments-john-doe-comment-1 .customer-info {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 1rem;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  position: relative;
+}
+.customers-comments-1 .customers-comments-john-doe-comment .customer-comments-john-doe-comment-1 .customer-info img {
+  position: absolute;
+  top: -2.3rem;
+  left: 0;
+}
+.customers-comments-1 .customers-comments-john-doe-comment .customer-comments-john-doe-comment-1 .customer-info .customer-name {
+  width: 100%;
+  padding: 5rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 5rem;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+.customers-comments-1 .customers-comments-john-doe-comment .customer-comments-john-doe-comment-1 .customer-info .customer-name .john-heading {
+  font-family: "Poppins, sans-serif";
+  font-weight: 700;
+  font-size: 1.8rem;
+}
+.customers-comments-1 .customers-comments-john-doe-comment .customer-comments-john-doe-comment-1 .customer-info .customer-name span {
+  font-family: "Poppins, sans-serif";
+  font-weight: 400;
+  font-size: 1.8rem;
+  color: rgba(30, 30, 30, 0.5);
+}
+.customers-comments-1 .customers-comments-john-doe-comment .customer-comments-john-doe-comment-1 .customer-info .raiting {
+  padding: 4rem;
+  width: 10%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 0.1rem;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+.customers-comments-1 .customers-comments-john-doe-comment .customer-comments-john-doe-comment-1 .customer-info .raiting img {
+  width: 5%;
+}
+
+.footer {
+  width: 100%;
+  background-color: #C1DCDC;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  gap: 10rem;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  padding: 5rem;
+  position: relative;
+}
+.footer-chart {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  gap: 25rem;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+.footer-chart .help {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  gap: 5rem;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+.footer-chart .help-help {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  gap: 2rem;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+.footer-chart .help-help p {
+  font-family: "Poppins, sans-serif";
+  font-weight: 400;
+  font-size: 1.8rem;
+  color: rgba(30, 30, 30, 0.5);
+}
+.footer-chart .help-help .icons {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  gap: 2rem;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+.footer-chart .footer-list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  gap: 2rem;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+.footer-chart .footer-list h2 {
+  font-family: "Poppins, sans-serif";
+  font-weight: 700;
+  font-size: 1.8rem;
+}
+.footer-chart .footer-list li {
+  font-family: "Poppins, sans-serif";
+  font-weight: 400;
+  font-size: 1.8rem;
+  color: rgba(30, 30, 30, 0.5);
+}
+.footer span {
+  position: absolute;
+  top: 21rem;
+  left: 5rem;
+  font-family: "Poppins, sans-serif";
+  font-weight: 400;
+  font-size: 1.8rem;
+  color: rgba(30, 30, 30, 0.5);
 }/*# sourceMappingURL=main.css.map */
