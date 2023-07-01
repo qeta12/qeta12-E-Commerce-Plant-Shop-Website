@@ -1,9 +1,9 @@
 .categories {
-    padding: 10rem;
     width: 100%;
+    padding-top: 10rem;
     &-container {
         
-        @include flexbox(center, center, 10rem, column);
+        @include flexbox(flex-start, center, 10rem, column);
     }
    
    .categories-heading {
@@ -18,6 +18,8 @@
         
     }
     .categories-pictures {
+        width: 100%;
+        padding-bottom: 5rem;
         background-color: $color-lightblue;
         
         @include flexbox(flex-start, center, 3rem, row);
@@ -27,12 +29,14 @@
             padding: 1rem;
         }
         p {
+            width: 50%;
             @include fonts(400, 1.8rem);
             color: $color-black-lighter;
             text-align: center;
 
         }
         &-accesories {
+            margin-top: 3rem;
             @include flexbox(flex-start, center, 3rem, column);
             .categories-pictures-accesories-btn {
                 background-color: #fff;

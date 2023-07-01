@@ -2,7 +2,7 @@
     width: 100%;
     background-color: $color-lightblue;
     @include flexbox(flex-start, flex-start, 10rem, row);
-    padding: 5rem;
+    padding: 5rem 5rem 10rem 5rem;
     
     position: relative;;
     &-chart {
@@ -20,18 +20,22 @@
                 @include flexbox(flex-start, flex-start, 2rem, row);
             }
         }
-        .footer-list {
-            @include flexbox(flex-start, flex-start, 2rem, column);
-            h2 {
-                @include fonts(700, 1.8rem);
+        .footer-list-list {
+            @include flexbox(flex-start, flex-start, 12rem, row);
+            .footer-list {
+                @include flexbox(flex-start, flex-start, 2rem, column);
+                h2 {
+                    @include fonts(700, 1.8rem);
+                }
+                li {
+                    @include fonts(400, 1.8rem);
+                    color: $color-black-lighter;
+                }
             }
-            li {
-                @include fonts(400, 1.8rem);
-                color: $color-black-lighter;
-            }
+            
         }
     }
-    span {
+    .footer-span {
         position: absolute;
         top: 21rem;
         left: 5rem;
@@ -39,4 +43,34 @@
         color: $color-black-lighter;
 
     }
-}
+    @media (max-width: 768px) {
+        padding: 3rem;
+    
+        &-chart {
+          @include flexbox(flex-start, flex-start, 5rem, column);
+    
+          .help-help {
+            margin-top: 1rem;
+          }
+    
+          .footer-list {
+            margin-top: 1rem;
+          }
+        }
+    
+        .footer-span {
+          top: 35rem;
+          left: 3rem;
+          @include fonts(400, 1rem);
+        }
+      }
+    }
+   
+    
+    
+    
+    
+    
+    
+    
+
